@@ -4,12 +4,11 @@
 		<meta charset="UTF-8">
 		<title>Armonia Impresores</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">	
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
 	</head>
 	<body>
 		<header class="container">
@@ -18,10 +17,12 @@
 					<img src="images/LogoArmonia.png" alt="Logo Armonia Impresores">
 				</div>
 				<div class="col-sm-6" id="navbar">
-					<a href="">INICIO</a>
-					<a href="">PRODUCTOS</a>
-					<a href="">COTIZA</a>
-					<a href="">CREA</a>
+					<div class="row">
+						<a href="">INICIO</a>
+						<a href="">PRODUCTOS</a>
+						<a href="">COTIZA</a>
+						<a href="">CREA</a>
+					</div>		
 				</div>		
 				<div class="col-sm-2" id="social">
 					<a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -29,41 +30,75 @@
 				</div>		
 			</div>			
 		</header>
-		<section id="carrusel">
-			<img src="images/Banner2.png" alt="Volante de Armonia Impresores">
+		<section id="sectioncarrusel">
+			<div id="carrusel">
+				<img src="images/Banner2.png" alt="Volante de Armonia Impresores">
+			</div>			
 		</section>
-		<section class="container">
-			<h2>GALERÍA</h2>
+		<section class="container-fluid">
 			<div class="row">
-			<div class="col-sm-4">
-				<img src="images/Tarjetas de Presentacion.png" alt="Tarjetas de Presentacion imprenta Bucaramanga" style="width:300px;height:auto;">
-				<h3>TARJETAS DE PRESENTACION</h3>
+				<div class="col-sm-4 galeriadiv">
+				</div>
+				<div class="col-sm-4">
+					<h2>GALERÍA</h2>
+				</div>
+				<div class="col-sm-4 galeriadiv">
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="row" id="productos">
+			<div class="col-sm-4 borde">
+				<img src="images/Tarjetas de Presentacion.png" alt="Tarjetas de Presentacion imprenta Bucaramanga" id="tarjetadepresentacion1">
+			</div>
+			<div class="col-sm-4 borde">
+				<img src="images/libroc.png" alt="Libro impreso imprenta Bucaramanga" id="libro1">		
 			</div>
 			<div class="col-sm-4">
-				<img src="images/libroc.png" alt="Tarjetas de Presentacion imprenta Bucaramanga" style="width:300px;height:auto;">
-				<h3>LIBROS</h3>
-			</div>
-			<div class="col-sm-4">
-				<img src="images/RevistaAb.png" alt="Tarjetas de Presentacion imprenta Bucaramanga" style="width:300px;height:auto;">
-				<h3>REVISTAS</h3>
+				<img src="images/RevistaAb.png" alt="agendas imprenta Bucaramanga" id="revista1">
 			</div>	
 			</div>			
 		</section>
+		<section>
+			<div class="row">
+				<div class="col-sm-4"><h3>TARJETAS DE PRESENTACION</h3></div>
+				<div class="col-sm-4"><h3>LIBROS</h3></div>
+				<div class="col-sm-4"><h3>REVISTAS</h3></div>
+			</div>
+		</section>
 		<footer class="row">
 			<div class="col-sm-4">
-				<a href="" src="icono"><i class="fa fa-map-marker" aria-hidden="true"></i></a>
-				<p>Carrera 27 # 19 - 74</p>
-				<p>Bucaramanga - Colombia</p>
+				<div class="row">
+					<div class="col-sm-2 footer-icons">
+						<a href="" src="icono"><i class="fa fa-map-marker" aria-hidden="true"></i></a>
+					</div>
+					<div class="col-sm-10">
+						<p>Carrera 27 # 19 - 74</p>
+						<p>Bucaramanga - Colombia</p>
+					</div>		
+				</div>	
 			</div>
 			<div class="col-sm-4">
-				<a href="" src="icono"><i class="fa fa-at" aria-hidden="true"></i></a>
-				<p>comercial@armoniaimpresores.com</p>
-				<p>ventas@armoniaimpresores.com</p>
+				<div class="row">
+					<div class="col-sm-2 footer-icons">
+						<a href="" src="icono"><i class="fa fa-at" aria-hidden="true"></i></a>
+					</div>
+					<div class="col-sm-10">
+						<p>comercial@armoniaimpresores.com</p>
+						<p>ventas@armoniaimpresores.com</p>
+					</div>					
+				</div>	
 			</div>
 			<div class="col-sm-4">
-				<a href="" src="icono"><i class="fa fa-phone" aria-hidden="true"></i></a>
-				<p>Teléfonos: 634 6624 - 645 5753</p>
-				<p>Fax: 6 342058</p>
+				<div class="row">
+					<div class="col-sm-2 footer-icons">
+						<a href="" src="icono"><i class="fa fa-phone" aria-hidden="true"></i></a>
+					</div>
+					<div class="col-sm-10">
+						<p>Teléfonos: 634 6624</p>
+						<p>645 5753</p>
+					</div>	
+				</div>
 			</div>
 		</footer>
 	</body>
