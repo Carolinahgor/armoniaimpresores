@@ -24,6 +24,11 @@ header img {
 
 .bordenavbar {
 	border-right: 2.5px solid #E6E6E6; 
+	text-align: center;
+	/*border-left: 2.5px solid #E6E6E6; */
+}
+
+#inicionavbarizq {
 	border-left: 2.5px solid #E6E6E6; 
 }
 
@@ -37,7 +42,7 @@ header img {
 	/*font-weight: bold;
 	height:80px;
 	width: 80px;*/
-	text-align: center;
+	text-align: right;
 }
 
 #social {

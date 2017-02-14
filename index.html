@@ -9,19 +9,39 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">	
 		<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.theme.default.min.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/owl.carousel.min.js"></script>
 	</head>
 	<body>
 		<header class="container">
+		<div class="owl-carousel owl-theme">
+		  <div> Your Content </div>
+		  <div> Your Content </div>
+		  <div> Your Content </div>
+		  <div> Your Content </div>
+		  <div> Your Content </div>
+		  <div> Your Content </div>
+		  <div> Your Content </div>
+		</div>
 			<div class="row">
 				<div class="col-sm-4">
 					<img src="images/LogoArmonia.png" alt="Logo Armonia Impresores">
 				</div>
 				<div class="col-sm-6" id="navbar">
 					<div class="row">
-						<a href="">INICIO</a>
-						<a href="">PRODUCTOS</a>
-						<a href="">COTIZA</a>
-						<a href="">CREA</a>
+						<div class="col-sm-3 bordenavbar" id="inicionavbarizq">
+							<a href="">INICIO</a>
+						</div>
+						<div class="col-sm-3 bordenavbar">
+							<a href="">PRODUCTOS</a>
+						</div>
+						<div class="col-sm-3 bordenavbar">
+							<a href="">COTIZA</a>
+						</div>
+						<div class="col-sm-3 bordenavbar">
+							<a href="">CREA</a>
+						</div>				
 					</div>		
 				</div>		
 				<div class="col-sm-2" id="social">
@@ -32,7 +52,17 @@
 		</header>
 		<section id="sectioncarrusel">
 			<div id="carrusel">
-				<img src="images/Banner2.png" alt="Volante de Armonia Impresores">
+				<!-- <div class="owl-carousel owl-theme"> -->
+					<div>
+						<img src="images/Banner2.png" alt="Volante de Armonia Impresores">
+					</div>
+					<!-- <div>
+						<img src="images/Banner3.png" alt="Volante de Armonia Impresores">
+					</div> -->
+					<!-- <div>
+						<img src="images/Banner4.png" alt="Volante de Armonia Impresores">
+					</div> -->
+				<!-- </div> -->
 			</div>			
 		</section>
 		<section class="container-fluid">
@@ -61,7 +91,7 @@
 		</section>
 		<section>
 			<div class="row">
-				<div class="col-sm-4"><h3>TARJETAS DE PRESENTACION</h3></div>
+				<div class="col-sm-4"><h3>TARJETAS DE PRESENTACIÓN</h3></div>
 				<div class="col-sm-4"><h3>LIBROS</h3></div>
 				<div class="col-sm-4"><h3>REVISTAS</h3></div>
 			</div>
@@ -101,5 +131,10 @@
 				</div>
 			</div>
 		</footer>
+		<script>
+			$(document).ready(function(){
+			  $('.owl-carousel').owlCarousel();
+			});
+		</script>
 	</body>
 </html>
