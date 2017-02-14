@@ -15,15 +15,6 @@
 	</head>
 	<body>
 		<header class="container">
-		<div class="owl-carousel owl-theme">
-		  <div> Your Content </div>
-		  <div> Your Content </div>
-		  <div> Your Content </div>
-		  <div> Your Content </div>
-		  <div> Your Content </div>
-		  <div> Your Content </div>
-		  <div> Your Content </div>
-		</div>
 			<div class="row">
 				<div class="col-sm-4">
 					<img src="images/LogoArmonia.png" alt="Logo Armonia Impresores">
@@ -52,17 +43,17 @@
 		</header>
 		<section id="sectioncarrusel">
 			<div id="carrusel">
-				<!-- <div class="owl-carousel owl-theme"> -->
+				<div class="owl-carousel owl-theme">
 					<div>
 						<img src="images/Banner2.png" alt="Volante de Armonia Impresores">
 					</div>
-					<!-- <div>
+					<div>
 						<img src="images/Banner3.png" alt="Volante de Armonia Impresores">
-					</div> -->
-					<!-- <div>
+					</div>
+					<div>
 						<img src="images/Banner4.png" alt="Volante de Armonia Impresores">
-					</div> -->
-				<!-- </div> -->
+					</div>
+				</div>
 			</div>			
 		</section>
 		<section class="container-fluid">
@@ -133,8 +124,12 @@
 		</footer>
 		<script>
 			$(document).ready(function(){
-			  $('.owl-carousel').owlCarousel();
-			});
+			    $('.owl-carousel').owlCarousel({
+			        items: 1,
+			        loop: true,
+			        autoplay: true
+			    });
+			  });
 		</script>
 	</body>
 </html>

@@ -33,20 +33,20 @@ header img {
 }
 
 #social a {
-	font-size: 35px;
-	/*padding-right: 20px;*/
-	border-radius: 70%;
+	font-size: 33px;
+	border-radius: 50%;
 	color: white;
 	background-color: #20336C; 
-	/*font-size: 24px;*/
-	/*font-weight: bold;
-	height:80px;
-	width: 80px;*/
-	text-align: right;
 }
 
 #social {
 	padding-top: 230px;
+	word-spacing: 8px;
+}
+
+#social a i {
+	width: 40px;
+	text-align: center;
 }
 
 
@@ -116,7 +116,7 @@ footer {
 
 .footer-icons {
 	text-align: right;
-	font-size: 35px;
+	font-size: 30px;
 	
 }
 
@@ -124,6 +124,11 @@ footer {
 	background: #20336C;
 	color: white;
 	border-radius: 50%;
+}
+
+.footer-icons a i{
+	width: 35px;
+	text-align: center;
 }
 
 p {
