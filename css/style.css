@@ -75,27 +75,26 @@ h2 {
 	margin-top: 50px;
 }
 
-#tarjetadepresentacion1 {
+/*#tarjetadepresentacion1 {
 	width: 340px;
 	height: 300px;
 	display: block;
 	margin: 0 auto;
-}
+}*/
 
-#libro1 {
-	width: 300px;
-	height: 320px;
+.centerproductos {
 	display: block;
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-#revista1 {
+/*#revista1 {
 	width: 380px;
 	height: 300px;
 	display: block;
 	margin: 0 auto;
 	padding: 15px;
-}
+}*/
 
 .borde {
 	border-right: 2.5px solid #E6E6E6;
@@ -149,6 +148,19 @@ h1 {
     margin-top: 70px
 }
 
+.boton {
+	height: 33px;
+}
+
+.arrow {
+	color: #E6E6E6;
+    font-size: 30px;
+    display: inline-block;
+    transform: scale(.9,.6);
+    position: relative;
+    bottom: 10px;
+}
+
 #categoriasproductos {
 	padding-top: 50px;
 }
@@ -176,3 +188,9 @@ h1 {
 .productosmargen {
 	margin-top: 45px;
 }
+
+.btn-default {
+	background-color: #B3B3B3;
+	border-radius: 0px;
+}
+
