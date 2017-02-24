@@ -1,0 +1,200 @@
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+header img {
+	width: 200px;
+	height: auto;
+	margin-top: 10px;
+	padding-top: 17px;
+	padding-left: 40px;
+}
+
+#navbar {
+	padding-top: 190px;
+	font-size: 18px;
+	word-spacing: 70px;
+}
+
+#navbar a {
+	text-decoration: none;
+	color: #20336C;
+}
+
+header #navbar a.active {
+	background: #20336C;
+
+}
+
+.bordenavbar {
+	border-right: 2.5px solid #E6E6E6; 
+	text-align: center;
+}
+
+#inicionavbarizq {
+	border-left: 2.5px solid #E6E6E6; 
+}
+
+#social a {
+	font-size: 33px;
+	border-radius: 50%;
+	color: white;
+	background-color: #20336C; 
+}
+
+#social {
+	padding-top: 175px;
+	word-spacing: 20px;
+}
+
+#social a i {
+	width: 40px;
+	text-align: center;
+}
+
+
+#carrusel img {
+	min-width: 500px;
+	max-width: 1300px;
+	height: auto;
+	padding: 30px 0;
+}
+
+.galeriadiv {
+	height: 28px;
+    background-color: #E6E6E6;
+    margin-top: 60px
+}
+
+h2 {
+	text-align: center;
+	margin-top: 45px;
+	padding-top: 10px;
+	color: #20336C;
+	font-size: 40px;
+}
+
+#productos {
+	margin-top: 50px;
+}
+
+/*#tarjetadepresentacion1 {
+	width: 340px;
+	height: 300px;
+	display: block;
+	margin: 0 auto;
+}*/
+
+.centerproductos {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*#revista1 {
+	width: 380px;
+	height: 300px;
+	display: block;
+	margin: 0 auto;
+	padding: 15px;
+}*/
+
+.borde {
+	border-right: 2.5px solid #E6E6E6;
+}
+
+h3 {
+	text-align: center;
+	font-size: 20px;
+	text-align: center;
+}
+
+footer {
+	margin-top: 50px;
+	padding: 15px 15px;
+	background-color: #E6E6E6;
+}
+
+.footer-icons {
+	text-align: right;
+	font-size: 29px;
+	
+}
+
+.footer-icons a {
+	background: #20336C;
+	color: white;
+	border-radius: 50%;
+}
+
+.footer-icons a i{
+	width: 35px;
+	text-align: center;
+}
+
+p {
+	font-size: 15px;
+	color: #20336C;
+	margin: 0 0 0px;
+}
+
+h1 {
+	text-align: center;
+	color: #20336C;
+	margin-top: 60px;
+	font-size: 40px;
+}
+
+.productosdiv {
+	height: 28px;
+    background-color: #E6E6E6;
+    margin-top: 70px
+}
+
+.boton {
+	height: 33px;
+}
+
+.arrow {
+	color: #E6E6E6;
+    font-size: 30px;
+    display: inline-block;
+    transform: scale(.9,.6);
+    position: relative;
+    bottom: 10px;
+}
+
+#categoriasproductos {
+	padding-top: 50px;
+}
+
+.nombrescategorias {
+	font-size: 25px;
+	text-align: left;
+}
+
+.menuproducto {
+	position: absolute;
+	right: 0px;
+}
+
+.nombrescolumnaderecha {
+	text-align: right;
+	font-size: 25px;
+}
+
+.menuproductoderecha {
+	position: absolute;
+	left: 0px;
+}
+
+.productosmargen {
+	margin-top: 45px;
+}
+
+.btn-default {
+	background-color: #B3B3B3;
+	border-radius: 0px;
+}
+
