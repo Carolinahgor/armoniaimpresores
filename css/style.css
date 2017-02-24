@@ -22,10 +22,14 @@ header img {
 	color: #20336C;
 }
 
+header #navbar a.active {
+	background: #20336C;
+
+}
+
 .bordenavbar {
 	border-right: 2.5px solid #E6E6E6; 
 	text-align: center;
-	/*border-left: 2.5px solid #E6E6E6; */
 }
 
 #inicionavbarizq {
