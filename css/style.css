@@ -22,9 +22,13 @@ header img {
 	color: #20336C;
 }
 
-header #navbar a.active {
-	background: #20336C;
+.activenavbar {
+	background-color: #20336C; 
+	border-radius: 2px;
+}
 
+header #navbar a.active {
+	color: white;
 }
 
 .bordenavbar {
@@ -101,7 +105,7 @@ h2 {
 }*/
 
 .borde {
-	border-right: 2.5px solid #E6E6E6;
+	border-right: 2.5px solid #B3B3B3;
 }
 
 h3 {
