@@ -110,6 +110,11 @@ h2 {
 	padding: 15px;
 }*/
 
+.revista {
+	width: 370px;
+	height: 300px;
+}
+
 .borde {
 	border-right: 2.5px solid #B3B3B3;
 }
