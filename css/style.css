@@ -4,11 +4,13 @@ body {
 }
 
 header img {
-	width: 200px;
+/*	Intentando probar por que se rompe*/
+	/*width: 200px;*/
+	width: 180px;
 	height: auto;
 	margin-top: 10px;
-	padding-top: 17px;
-	padding-left: 40px;
+/*	padding-top: 17px;
+	padding-left: 40px;*/
 }
 
 #navbar {
@@ -49,7 +51,8 @@ header #navbar a.active {
 
 #social {
 	padding-top: 175px;
-	word-spacing: 20px;
+	word-spacing: 10px;
+	text-align: center;
 }
 
 #social a i {
