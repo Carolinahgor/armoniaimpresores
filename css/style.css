@@ -4,11 +4,16 @@ body {
 }
 
 header img {
-	width: 200px;
+/*	Intentando probar por que se rompe*/
+	/*width: 200px;*/
+	width: 180px;
 	height: auto;
 	margin-top: 10px;
-	padding-top: 17px;
-	padding-left: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+/*	padding-top: 17px;
+	padding-left: 40px;*/
 }
 
 #navbar {
@@ -22,9 +27,14 @@ header img {
 	color: #20336C;
 }
 
-header #navbar a.active {
-	background: #20336C;
 
+.activenavbar {
+	background-color: #20336C; 
+	border-radius: 2px;
+}
+
+header #navbar a.active {
+	color: white;
 }
 
 .bordenavbar {
@@ -46,6 +56,8 @@ header #navbar a.active {
 #social {
 	padding-top: 175px;
 	word-spacing: 20px;
+	word-spacing: 10px;
+	text-align: center;
 }
 
 #social a i {
@@ -92,16 +104,9 @@ h2 {
 	margin-right: auto;
 }
 
-/*#revista1 {
-	width: 380px;
-	height: 300px;
-	display: block;
-	margin: 0 auto;
-	padding: 15px;
-}*/
 
 .borde {
-	border-right: 2.5px solid #E6E6E6;
+	border-right: 2.5px solid #B3B3B3;
 }
 
 h3 {
@@ -119,6 +124,7 @@ footer {
 .footer-icons {
 	text-align: right;
 	font-size: 29px;
+	padding-right: 0px;
 	
 }
 
